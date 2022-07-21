@@ -283,16 +283,16 @@ ul li {
     /*ポチ消す*/
 }
 
-ul li a {
+a {
     text-decoration: none;
     color: #404040;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
 
-ul li a:hover {
+a:hover {
     background-color: #ddddee;
     text-decoration: underline;
     font-weight: 500;
