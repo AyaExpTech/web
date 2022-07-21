@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AyaExpTech</title>
+    <!--↑適宜変更-->
+    <meta name="description" content="あなたの想像した日常は、あなたが創造できる。情報発信グループ「綾急技研」" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" href="lib/logo.svg" type="image/svg+xml">
+    <meta property="og:site_name" content="AyaExpTech" />
+    <meta property="og:url" content="URL" />
+    <meta property="og:type" content="website" />
+    <!--↑トップページ以外はwebsiteをarticleに-->
+    <meta property="og:title" content="AyaExpTech" />
+    <meta property="og:description" content="あなたの想像した日常は、あなたが創造できる。情報発信グループ「綾急技研」" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- js -->
+    <!-- <script src="js/main.js" defer></script> defer属性つけといてください -->
+
+    <!-- googleクロール避けは以下の通り -->
+    <!-- <meta name="robots" content="noindex,nofollow"> -->
+    <!-- ここからstyle -->
+    <style>
+        .logo {
+            display: block;
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-left: auto;
+            margin-right: auto;
+            height: 50vh;
+            width: auto;
+        }
+        
+        .items {
+            display: flex;
+            align-items: stretch;
+            justify-content: space-between;
+        }
+        
+        .item {
+            width: 15vh;
+            height: auto;
+            margin-left: 7.5vw;
+            margin-right: 7.5vw;
+        }
+        
+        @media screen and (max-width: 480px) {
+            /* スマホなどにはこの中が適用される */
+            .logo {
+                display: block;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                margin-left: auto;
+                margin-right: auto;
+                height: auto;
+                width: 60vw;
+            }
+            .item {
+                width: 12vh;
+                height: auto;
+                margin-left: 5vw;
+                margin-right: 5vw;
+            }
+        }
+    </style>
+</head>
+
+<body bgcolor="#646ECB">
+    <img class="logo" src="lib/logo.svg" onclick="location.href='entry.html?AXT_introduction'" />
+    <div class="items">
+        <img src="lib/mat/notice.svg" class="item" onclick="location.href='entry.html?list_notices'">
+        <img src="lib/mat/member.svg" class="item" onclick="location.href='entry.html?AXT_memberList'">
+        <img src="lib/mat/media.svg" class="item" onclick="location.href='entry.html?list_2022-07'">
+        <img src="lib/mat/contact.svg" class="item" onclick="location.href='entry.html?AXT_contactList'">
+    </div>
+</body>
