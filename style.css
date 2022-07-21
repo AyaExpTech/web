@@ -173,8 +173,175 @@ p.links {
     font-size: 0.8vw;
 }
 
-@media screen and (max-width: 599px) {
-    /* 600px未満に適用されるCSS（スマホ用） */
+
+/* -本文につけるいろいろ- */
+
+#contents-body h1 {
+    position: relative;
+    background: #ffd98a;
+    padding: 2px 5px 2px 48px;
+    color: #474747;
+    border-radius: 0 10px 10px 0;
+}
+
+#contents-body h1:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f135";
+    display: inline-block;
+    line-height: 48px;
+    position: absolute;
+    padding: 0em;
+    color: white;
+    background: #ffa337;
+    font-weight: 900;
+    width: 48px;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    left: -0.5em;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border: solid 3px white;
+    border-radius: 50%;
+}
+
+#contents-body h2 {
+    position: relative;
+    padding: 2px 5px 2px 40px;
+    color: #153c6e;
+}
+
+#contents-body h2:before {
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0c9";
+    background: #c9e2ff;
+    color: #153c6e;
+    font-size: 16px;
+    border-radius: 50%;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#contents-body h3 {
+    padding: 0.5em;
+    color: #494949;
+    background: #fffaf4;
+    border-left: solid 5px rgb(100, 110, 203);
+}
+
+#contents-body h4 {
+    padding: 0.5em;
+    color: #494949;
+    background: #fffaf4;
+    border-left: solid 5px rgb(100, 110, 203);
+}
+
+#contents-body h5 {
+    padding: 0.5em;
+    color: #494949;
+    background: #fffaf4;
+    border-left: solid 5px rgb(100, 110, 203);
+}
+
+#contents-body h6 {
+    padding: 0.5em;
+    color: #494949;
+    background: #fffaf4;
+    border-left: solid 5px rgb(100, 110, 203);
+}
+
+#contents-body blockquote {
+    position: relative;
+    margin: 0.2em 0;
+    padding: 0.1em 0.1em 0.1em 1em;
+    border-left: 5px solid #CCC;
+    border-radius: 2px;
+}
+
+#contents-body ul {
+    padding: 4px;
+}
+
+#contents-body ol {
+    padding-top: 4px;
+}
+
+#contents-body ul li {
+    color: #404040;
+    border-left: solid 3px rgb(100, 110, 203);
+    /*左側の線*/
+    margin-bottom: 2px;
+    /*下のバーとの余白*/
+    line-height: 1.5;
+    padding: 0.4em;
+    list-style-type: none!important;
+    /*ポチ消す*/
+    font-weight: bold;
+}
+
+#contents-body ol li {
+    color: #404040;
+    border-left: solid 3px rgb(100, 110, 203);
+    /*左側の線*/
+    margin-bottom: 2px;
+    /*下のバーとの余白*/
+    line-height: 1.5;
+    padding: 0.4em;
+    font-weight: bold;
+}
+
+#contents-body {
+    font-weight: medium;
+}
+
+#contents-body pre {
+    padding: 1em;
+    /* 内側の余白 */
+    margin: 0 0 1.5em;
+    /* 外側の余白 */
+    border: solid 1px #4d4d4d;
+    /* 枠線（枠線を濃い黒に） */
+    background: #25292f;
+    /* 背景色（背景を黒に） */
+    color: #fff;
+    /* 文字色（文字を白に） */
+}
+
+#contents-body code {
+    padding: 0.2em 0.3em;
+    /* 内側の余白 */
+    margin: 0 0.2em;
+    /* 外側の余白 */
+    border-radius: 5px;
+    /* 角の丸み */
+    background: #f1f2f3;
+    /* 背景色 */
+    color: #404040;
+    /* 文字色 */
+    font-size: 0.9em;
+    /* 文字サイズ */
+}
+
+#contents-body img {
+    width: 33%;
+    max-width: 400px;
+    height: auto;
+}
+
+
+/* -スマホ用- */
+
+@media screen and (max-width: 699px) {
+    /* 700px未満に適用されるCSS（スマホ用） */
     .contents {
         flex-flow: column nowrap;
         justify-content: space-between;
