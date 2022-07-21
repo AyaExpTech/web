@@ -31,3 +31,4 @@ AXT_系のページ一覧
 - AXT_member-NAME…NAMEの紹介ページ
 - AXT_contactList…お問い合わせ
 - AXT_introduction…綾急技研とは？
+- AXT_AeTOS…ライセンス(AeTOS)
