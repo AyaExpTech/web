@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: rgb(240, 240, 240);
+    overflow-x: hidden;
+}
+
+.header-wrap {
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.header {
+    z-index: 100;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+    background: rgb(100, 110, 203);
+    margin: 0;
+    padding: 0;
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.5));
+}
+
+.fix-header-position {
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.header-logo {
+    width: 3vw;
+    height: 3vw;
+    margin: 0.5vw;
+}
+
+.header-AXT {
+    font-size: 2vw;
+    margin: 0.5vw;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(240, 240, 240);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contents {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 16px;
+}
+
+.main {
+    width: calc(100vw - 392px);
+}
+
+
+/* ここから本文もとい左側 */
+
+.contents-links {
+    display: flex;
+    background-color: rgb(100, 110, 203);
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.3));
+    margin: 10px;
+}
+
+.contents-thumb {
+    width: 15vw;
+    height: auto;
+    margin: 8px;
+    filter: drop-shadow(0px 0px 6px rgba(255, 255, 255, 0.3));
+}
+
+.contents-explanation {
+    color: rgb(240, 240, 240);
+    width: calc(85vw - 464px);
+    margin: 12px;
+}
+
+
+/* ここから記事本文にかかる装飾 */
+
+.contents-body-wrap {
+    background-color: rgb(240, 240, 240);
+}
+
+.contents-body {
+    margin: 12px;
+    filter: drop-shadow(0px 0px 6px rgba(255, 255, 255, 0.3));
+}
+
+.contents-body p code {
+    margin: 8px;
+    background-color: rgb(220, 220, 220);
+}
+
+
+/* ここからフッターもとい右側 */
+
+.footer {
+    background-color: rgb(240, 240, 240);
+    width: 352px;
+}
+
+.phone-only {
+    visibility: hidden;
+}
+
+.twitter-publish {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 16px;
+    margin-right: 16px;
+    visibility: visible;
+}
+
+.twitter-timeline {
+    margin: 10px;
+}
+
+div.links {
+    margin-left: 26px;
+    margin-right: 26px;
+    overflow-wrap: break-word;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+p.links {
+    margin-left: 26px;
+    margin-right: 26px;
+    overflow-wrap: break-word;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.SNS-link {
+    margin: 4px;
+}
+
+.sitemap {
+    list-style-type: none;
+    padding: 0;
+    margin: 4px;
+}
+
+.sitemap-indent {
+    list-style-type: square;
+    margin: 8px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+/* 全範囲共通 */
+
+.size-big {
+    font-size: 1vw;
+}
+
+.size-normal {
+    font-size: 0.8vw;
+}
+
+@media screen and (max-width: 599px) {
+    /* 600px未満に適用されるCSS（スマホ用） */
+    .contents {
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        margin-top: 0px;
+    }
+    /* ヘッダー調整 */
+    .header-logo {
+        width: 10vw;
+        height: 10vw;
+    }
+    .header-AXT {
+        font-size: 6vw;
+    }
+    /* コンテンツ幅 */
+    .main {
+        width: 100%;
+    }
+    .contents-explanation {
+        width: 100%;
+    }
+    .contents-body {
+        margin: 12px;
+        width: 100%;
+    }
+    /* フッター調整 */
+    .phone-only {
+        visibility: visible;
+    }
+    /* 全範囲共通 */
+    .size-big {
+        font-size: 1.8vw;
+    }
+    .size-normal {
+        font-size: 1.5vw;
+    }
+}
