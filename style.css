@@ -178,22 +178,22 @@ p.links {
 
 #contents-body h1 {
     position: relative;
-    background: #ffd98a;
+    background: rgb(80, 88, 175);
     padding: 2px 5px 2px 48px;
-    color: #474747;
-    border-radius: 0 10px 10px 0;
+    color: rgb(240, 240, 240);
+    border-radius: 0 20px 20px 0;
 }
 
 #contents-body h1:before {
     font-family: "Font Awesome 5 Free";
-    content: "\f8dd";
+    content: "\f1eb";
     display: inline-block;
     line-height: 48px;
     position: absolute;
     padding: 0em;
-    color: white;
-    background: rgb(125, 137, 240);
-    font-weight: 900;
+    color: rgb(240, 240, 240);
+    background: rgb(100, 110, 203);
+    font-weight: 600;
     width: 48px;
     text-align: center;
     height: 48px;
