@@ -6,7 +6,6 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     background-color: rgb(240, 240, 240);
     overflow-x: hidden;
-    line-height: 125%;
 }
 
 .header-wrap {
