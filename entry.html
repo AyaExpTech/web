@@ -21,13 +21,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <!-- js -->
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/default.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
     <script src="md2html.js" defer></script>
     <script src="entry-support.js" defer></script>
     <!-- <script src="js/main.js" defer></script> defer属性は必ずつけといてください -->
     <!-- googleクロール避けは以下を有効に。使うことあるか知らんが… -->
     <!-- <meta name="robots" content="noindex,nofollow"> -->
+    <script>
+        window.setTimeout(function() {
+            mediumZoom(document.querySelectorAll('img'), {
+                margin: 24,
+                background: '#292d3d',
+                scrollOffset: 0,
+            });
+            hljs.initHighlightingOnLoad();
+        }, 2500)
+    </script>
 </head>
 
 <body>

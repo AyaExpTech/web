@@ -35,7 +35,7 @@ function loadMarkdown(id) {
          */
         switch (id) {
             case "AXT_AeTOS": //綾急技研ライセンス『AeTOS』を表示するやつ→別のリポジトリにあるからそっちを見る
-                filePath = "https://raw.githubusercontent" + ".com/Aya" + "ExpTech/licence/main/AeTOS.md"; //licenseがスペルミスですがこれが正しい
+                filePath = "https://raw.githubusercontent." + "com/Aya" + "ExpTech/licence/main/AeTOS.md"; //licenseがスペルミスですがこれが正しい
                 break;
             default:
                 break;
