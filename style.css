@@ -267,6 +267,37 @@ p.links {
     border-radius: 2px;
 }
 
+ul {
+    padding: 2px;
+}
+
+ul li {
+    color: #404040;
+    border-left: solid 3px rgb(100, 110, 203);
+    /*左側の線*/
+    margin-bottom: 2px;
+    /*下のバーとの余白*/
+    line-height: 1.2;
+    padding: 0.2em;
+    list-style-type: none!important;
+    /*ポチ消す*/
+}
+
+ul li a {
+    text-decoration: none;
+    color: #404040;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+ul li a:hover {
+    background-color: #ddddee;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
 #contents-body ul {
     padding: 4px;
 }
@@ -281,7 +312,7 @@ p.links {
     /*左側の線*/
     margin-bottom: 2px;
     /*下のバーとの余白*/
-    line-height: 1.5;
+    line-height: 1.2;
     padding: 0.4em;
     list-style-type: none!important;
     /*ポチ消す*/
@@ -294,7 +325,7 @@ p.links {
     /*左側の線*/
     margin-bottom: 2px;
     /*下のバーとの余白*/
-    line-height: 1.5;
+    line-height: 1.2;
     padding: 0.4em;
     font-weight: bold;
 }
