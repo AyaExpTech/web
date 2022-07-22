@@ -286,6 +286,7 @@ ul li {
 a {
     text-decoration: none;
     color: #404040;
+    background-color: #ddddee;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
@@ -293,7 +294,7 @@ a {
 }
 
 a:hover {
-    background-color: #ddddee;
+    background-color: #bbbbdd;
     text-decoration: underline;
     font-weight: 500;
 }
@@ -364,7 +365,7 @@ a:hover {
 
 #contents-body img {
     width: 33%;
-    max-width: 400px;
+    max-width: 500px;
     height: auto;
 }
 
