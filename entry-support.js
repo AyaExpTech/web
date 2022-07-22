@@ -29,7 +29,7 @@ window.onload = function() {
 function loadMarkdown(id) {
     if (id != "") {
         //とりあえず取得するmarkdownのファイルパスを変数に作る
-        let filePath = "https://raw.githubusercontent" + ".com/Aya" + "ExpTech/web/stable/markdown/" + id + ".md";
+        let filePath = "markdown/" + id + ".md";
         /**
          * 場合によって読み替えが必要なクエリがあるのでswitch文でそれを処理します
          */
