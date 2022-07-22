@@ -372,8 +372,8 @@ a:hover {
 
 /* -スマホ用- */
 
-@media screen and (max-width: 979px) {
-    /* 980px未満に適用されるCSS（スマホ用） */
+@media screen and (max-width: 899px) {
+    /* 900px未満に適用されるCSS（スマホ用） */
     .contents {
         flex-flow: column nowrap;
         justify-content: space-between;

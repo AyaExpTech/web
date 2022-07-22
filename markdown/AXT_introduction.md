@@ -38,7 +38,7 @@
 そこで、様々な素材の配布を通じて、あなたの才能を光らせるための基盤を作ります。
 
 <div style="width: 33%;max-width:500px;height: auto;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YkecJM1oMaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="426" height="240" src="https://www.youtube.com/embed/YkecJM1oMaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 Twitter…[@AyaExpTech](https://twitter.com/AyaExpTech)
