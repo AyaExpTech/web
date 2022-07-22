@@ -37,8 +37,9 @@
         
         .items {
             display: flex;
+            width: 100%;
             align-items: stretch;
-            justify-content: space-between;
+            justify-content: space-around;
         }
         
         .item {
@@ -46,6 +47,7 @@
             height: auto;
             margin-left: 7.5vw;
             margin-right: 7.5vw;
+            display: flex;
         }
         
         @media screen and (max-width: 719px) {
@@ -60,10 +62,9 @@
                 width: 60vw;
             }
             .item {
-                width: 12vh;
+                width: 100%;
                 height: auto;
-                margin-left: 5vw;
-                margin-right: 5vw;
+                margin: 5%;
             }
         }
     </style>
