@@ -1,5 +1,3 @@
-###### tags: `webpage`
-
 # 綾急技研とは？
 
 > 『あなたの想像する日常は、あなたが創造できる。』
@@ -25,31 +23,12 @@
 
 ---
 
-<!--n分割-->
-<style>.flex-container{display:flex;flex-wrap:nowrap;
-justify-content:space-between;align-items:stretch;}
-.flex-item{width:100%;word-break:break-word;padding:1%;}</style>
-
-<!--/////////////////////////////////////////////////////////////////////////////////////////////-->
-<div class="flex-container"><div class="flex-item">
-
-![](https://raw.githubusercontent.com/AyaExpTech/web/stable/pictures/comingsoon.png)
-
-</div><div class="flex-item">
-
 ## IT活用の"コツ"を届ける
 
 難しいと思われがちな情報技術を、なるべくわかりやすく。  
 例えば、プログラミング。  
 もっとカジュアルに、日常に少し活かすための、  
 使い方ではない"コツ"を発信します。
-
-</div></div>
-
----
-
-<!--/////////////////////////////////////////////////////////////////////////////////////////////-->
-<div class="flex-container"><div class="flex-item">
 
 ## IT活用のための"サポート"
 
@@ -58,14 +37,7 @@ justify-content:space-between;align-items:stretch;}
 どれか一つができないから、あなたの他の部分の才能が発揮できないのはもったいない。  
 そこで、様々な素材の配布を通じて、あなたの才能を光らせるための基盤を作ります。
 
-</div><div class="flex-item">
-
-<iframe style="height:100%;width:100%;" src="https://www.youtube.com/embed/YkecJM1oMaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</div></div>
-<!--n分割 おわり-->
-
----
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YkecJM1oMaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Twitter…[@AyaExpTech](https://twitter.com/AyaExpTech)
 
